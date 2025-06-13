@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\FinalProject_Prog2_Yostin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90F3EDDC-7DD8-41E5-B782-E2EBA3275395}|FinalProject_Prog2_Yostin\\FinalProject_Prog2_Yostin.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\finalproject_prog2_yostin\\finalproject_prog2_yostin\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90F3EDDC-7DD8-41E5-B782-E2EBA3275395}|FinalProject_Prog2_Yostin\\FinalProject_Prog2_Yostin.csproj|solutionrelative:finalproject_prog2_yostin\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\FinalProject_Prog2_Yostin\\FinalProject_Prog2_Yostin\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "FinalProject_Prog2_Yostin\\Entities\\User.cs",
+              "ToolTip": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\FinalProject_Prog2_Yostin\\FinalProject_Prog2_Yostin\\Entities\\User.cs",
+              "RelativeToolTip": "FinalProject_Prog2_Yostin\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T02:47:02.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

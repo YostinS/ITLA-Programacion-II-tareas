@@ -1,0 +1,6 @@
+@FinalProject_Prog2_Yostin_HostAddress = http://localhost:5001
+
+GET {{FinalProject_Prog2_Yostin_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

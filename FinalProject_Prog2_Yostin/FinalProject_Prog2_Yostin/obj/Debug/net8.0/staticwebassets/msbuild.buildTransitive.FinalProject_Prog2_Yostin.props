@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FinalProject_Prog2_Yostin.props" />
+</Project>
