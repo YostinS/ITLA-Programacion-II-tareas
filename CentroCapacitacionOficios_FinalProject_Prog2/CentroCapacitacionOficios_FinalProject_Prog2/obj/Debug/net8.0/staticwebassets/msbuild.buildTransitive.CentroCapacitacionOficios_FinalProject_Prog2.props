@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CentroCapacitacionOficios_FinalProject_Prog2.props" />
+</Project>
