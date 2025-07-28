@@ -4,6 +4,8 @@ using CentroCapacitacionOficios.Data;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Numerics;
 using Microsoft.VisualBasic;
+using CentroCapacitacionOficios.DTOs;
+using System.Data;
 
 namespace CentroCapacitacionOficios.Controllers
 {
@@ -36,40 +38,46 @@ namespace CentroCapacitacionOficios.Controllers
         //Se utiliza para crear un nuevo recurso.
 
         [HttpPost]
-        public IActionResult CreateUser([FromBody] User user)
+        public IActionResult CreateUser([FromBody] CreateUserDto dto)
         {
-            if (user == null)
+            if (dto == null)
             {
                 return BadRequest("User cannot be null.");
             }
-
+            var user = new User
+            {
+                Name = dto.Name,
+                Email = dto.Email,
+                RegistrationDate = DateTime.UtcNow //dto.RegistrationDate
+            };
             _context.Add(user);
             _context.SaveChanges();
-            return Ok(user);
+            return Ok(new {id = user.Id});
         }
 
         //PUT:
         //Se utiliza para actualizar un recurso existente por completo.
 
         [HttpPut]
-        public IActionResult UpdateUser([FromBody] User user)
+        public IActionResult UpdateUser([FromBody] UpdateUserDto dto)
         {
-            if (user == null || user.Id <= 0)
+            if (dto == null || dto.Id <= 0)
             {
                 return BadRequest("invalid user data");
             }
-            var existingUser = _context.Users.FirstOrDefault(d =>  d.Id == user.Id);
+            var existingUser = _context.Users.FirstOrDefault(d => d.Id == dto.Id);
             if (existingUser == null)
             {
                 return NotFound("User no found");
             }
-            existingUser.Name = user.Name;
-            existingUser.Email = user.Email;
-            existingUser.RegistrationDate = user.RegistrationDate;
+            existingUser.Name = dto.Name;
+            existingUser.Email = dto.Email;
+            existingUser.RegistrationDate = dto.RegistrationDate;
+
             _context.Users.Update(existingUser);
             _context.SaveChanges();
 
-            return Ok(user);
+            return NoContent();
 
         }
 

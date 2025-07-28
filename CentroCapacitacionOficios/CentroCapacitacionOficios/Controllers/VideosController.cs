@@ -4,6 +4,7 @@ using CentroCapacitacionOficios.Data;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Numerics;
 using Microsoft.VisualBasic;
+using CentroCapacitacionOficios.DTOs;
 
 namespace CentroCapacitacionOficios.Controllers
 {
@@ -25,38 +26,44 @@ namespace CentroCapacitacionOficios.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateVideos([FromBody] Video video)
+        public IActionResult CreateVideos([FromBody] CreateVideoDto dto)
         {
-            if (video == null)
+            if (dto == null)
             {
                 return BadRequest("Video cannot be null. Need a valid link");
             }
+            var video = new Video
+            {
+                Title = dto.Title,
+                VideoUrl = dto.VideoUrl,
+                CourseId = dto.CourseId
+            };
 
             _context.Add(video);
             _context.SaveChanges();
-            return Ok(video);
+            return Ok(new { id = video.Id });
         }
 
         [HttpPut]
-        public IActionResult UpdateVideos([FromBody] Video video)
+        public IActionResult UpdateVideos([FromBody] UpdateVideoDto dto)
         {
-            if (video == null || video.Id <= 0)
+            if (dto == null || dto.Id <= 0)
             {
                 return BadRequest("invalid video data");
             }
-            var existingVideo = _context.Videos.FirstOrDefault(d => d.Id == video.Id);
+            var existingVideo = _context.Videos.FirstOrDefault(d => d.Id == dto.Id);
             if (existingVideo == null)
             {
                 return NotFound("Instructor no found");
             }
-            existingVideo.Title = video.Title;
-            existingVideo.VideoUrl = video.VideoUrl;
-            existingVideo.CourseId = video.CourseId;
+            existingVideo.Title = dto.Title;
+            existingVideo.VideoUrl = dto.VideoUrl;
+            existingVideo.CourseId = dto.CourseId;
 
             _context.Videos.Update(existingVideo);
             _context.SaveChanges();
 
-            return Ok(video);
+            return NoContent();
 
         }
 

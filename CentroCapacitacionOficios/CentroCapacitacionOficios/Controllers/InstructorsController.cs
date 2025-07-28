@@ -4,6 +4,7 @@ using CentroCapacitacionOficios.Data;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Numerics;
 using Microsoft.VisualBasic;
+using CentroCapacitacionOficios.DTOs;
 
 namespace CentroCapacitacionOficios.Controllers
 {
@@ -25,38 +26,44 @@ namespace CentroCapacitacionOficios.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateInstructors([FromBody] Instructor instructor)
+        public IActionResult CreateInstructors([FromBody] CreateInstructorDto dto)
         {
-            if (instructor == null)
+            if (dto == null)
             {
                 return BadRequest("Instructor cannot be null.");
             }
+            var instructor = new Instructor
+            {
+                Name = dto.Name,
+                Specialty = dto.Specialty,
+                Email = dto.Email
+            };
 
             _context.Add(instructor);
             _context.SaveChanges();
-            return Ok(instructor);
+            return Ok(new { id = instructor.Id });
         }
 
         [HttpPut]
-        public IActionResult UpdateInstructors([FromBody] Instructor instructor)
+        public IActionResult UpdateInstructors([FromBody] UpdateInstructorDto dto)
         {
-            if (instructor == null || instructor.Id <= 0)
+            if (dto == null || dto.Id <= 0)
             {
                 return BadRequest("invalid instructor data");
             }
-            var existingInstructor = _context.Instructors.FirstOrDefault(d => d.Id == instructor.Id);
+            var existingInstructor = _context.Instructors.FirstOrDefault(d => d.Id == dto.Id);
             if (existingInstructor == null)
             {
                 return NotFound("Instructor no found");
             }
-            existingInstructor.Name = instructor.Name;
-            existingInstructor.Specialty = instructor.Specialty;
-            existingInstructor.Email = instructor.Email;
+            existingInstructor.Name = dto.Name;
+            existingInstructor.Specialty = dto.Specialty;
+            existingInstructor.Email = dto.Email;
             
             _context.Instructors.Update(existingInstructor);
             _context.SaveChanges();
 
-            return Ok(instructor);
+            return NoContent();
 
         }
 
