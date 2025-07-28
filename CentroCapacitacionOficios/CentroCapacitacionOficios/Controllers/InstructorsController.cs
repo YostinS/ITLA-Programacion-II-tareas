@@ -17,9 +17,6 @@ namespace CentroCapacitacionOficios.Controllers
             _context = context;
         }
 
-        //GET:
-        //Se utiliza para recuperar información de un recurso específico o una colección de recursos.
-
         [HttpGet("{id}")]
         public IActionResult GetInstructors(int id)
         {
@@ -27,27 +24,21 @@ namespace CentroCapacitacionOficios.Controllers
             return Ok(instructor);
         }
 
-        //POST:
-        //Se utiliza para crear un nuevo recurso.
-
         [HttpPost]
-        public IActionResult CreateInstructor([FromBody] User user)
+        public IActionResult CreateInstructors([FromBody] Instructor instructor)
         {
-            if (user == null)
+            if (instructor == null)
             {
-                return BadRequest("User cannot be null.");
+                return BadRequest("Instructor cannot be null.");
             }
 
-            _context.Add(user);
+            _context.Add(instructor);
             _context.SaveChanges();
-            return Ok(user);
+            return Ok(instructor);
         }
 
-        //PUT:
-        //Se utiliza para actualizar un recurso existente por completo.
-
         [HttpPut]
-        public IActionResult UpdateInstructor([FromBody] Instructor instructor)
+        public IActionResult UpdateInstructors([FromBody] Instructor instructor)
         {
             if (instructor == null || instructor.Id <= 0)
             {
@@ -69,18 +60,15 @@ namespace CentroCapacitacionOficios.Controllers
 
         }
 
-        //DELETE:
-        //Se utiliza para eliminar un recurso existente.
-
         [HttpDelete]
-        public IActionResult DeleteUser(int id)
+        public IActionResult DeleteInstructors(int id)
         {
-            var user = _context.Users.FirstOrDefault(d => d.Id == id);
-            if (user == null)
+            var instructor = _context.Instructors.FirstOrDefault(d => d.Id == id);
+            if (instructor == null)
             {
-                return NotFound("User no found");
+                return NotFound("Instructor no found");
             }
-            _context.Users.Remove(user);
+            _context.Instructors.Remove(instructor);
             _context.SaveChanges();
             return NoContent();
         }

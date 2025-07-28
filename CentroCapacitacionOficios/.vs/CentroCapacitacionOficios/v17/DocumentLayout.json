@@ -3,44 +3,44 @@
   "WorkspaceRootPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\controllers\\videoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\controllers\\videoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\controllers\\certificatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\controllers\\certificatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\controllers\\instructorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\controllers\\videoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\controllers\\videoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\controllers\\certificatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\controllers\\certificatescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\video.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|solutionrelative:centrocapacitacionoficios\\entities\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A79996E-5E32-4D7C-9EFA-6D215173A820}|CentroCapacitacionOficios\\CentroCapacitacionOficios.csproj|c:\\programacion itla\\itla-programacion-ii-tareas\\centrocapacitacionoficios\\centrocapacitacionoficios\\data\\centrocapacitacionoficiosdatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,8 +86,7 @@
               "RelativeToolTip": "CentroCapacitacionOficios\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-27T20:41:09.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T20:41:09.844Z"
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "RelativeToolTip": "CentroCapacitacionOficios\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T20:36:17.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-27T20:36:17.375Z"
             },
             {
               "$type": "Document",
@@ -117,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Entities\\User.cs",
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Entities\\User.cs",
@@ -143,26 +141,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Certificate.cs",
               "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Entities\\Certificate.cs",
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Entities\\Certificate.cs",
               "ToolTip": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Entities\\Certificate.cs",
               "RelativeToolTip": "CentroCapacitacionOficios\\Entities\\Certificate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T19:46:23.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CertificatesController.cs",
               "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Controllers\\CertificatesController.cs",
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Controllers\\CertificatesController.cs",
               "ToolTip": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Controllers\\CertificatesController.cs",
               "RelativeToolTip": "CentroCapacitacionOficios\\Controllers\\CertificatesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T19:46:00.207Z",
               "EditorCaption": ""
@@ -175,27 +173,27 @@
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Entities\\Course.cs",
               "ToolTip": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Entities\\Course.cs",
               "RelativeToolTip": "CentroCapacitacionOficios\\Entities\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T19:46:18.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Controllers\\CoursesController.cs",
               "ToolTip": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "CentroCapacitacionOficios\\Controllers\\CoursesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T19:45:54.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Instructor.cs",
               "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Entities\\Instructor.cs",
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Entities\\Instructor.cs",
@@ -208,39 +206,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "InstructorsController.cs",
               "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Controllers\\InstructorsController.cs",
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Controllers\\InstructorsController.cs",
               "ToolTip": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Controllers\\InstructorsController.cs",
               "RelativeToolTip": "CentroCapacitacionOficios\\Controllers\\InstructorsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAIwAUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T19:45:45.183Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "Video.cs",
               "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Entities\\Video.cs",
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Entities\\Video.cs",
               "ToolTip": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Entities\\Video.cs",
               "RelativeToolTip": "CentroCapacitacionOficios\\Entities\\Video.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T19:44:36.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "VideosController.cs",
               "DocumentMoniker": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Controllers\\VideosController.cs",
               "RelativeDocumentMoniker": "CentroCapacitacionOficios\\Controllers\\VideosController.cs",
               "ToolTip": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacionOficios\\Controllers\\VideosController.cs",
               "RelativeToolTip": "CentroCapacitacionOficios\\Controllers\\VideosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAIwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T19:45:16.11Z",
               "EditorCaption": ""
