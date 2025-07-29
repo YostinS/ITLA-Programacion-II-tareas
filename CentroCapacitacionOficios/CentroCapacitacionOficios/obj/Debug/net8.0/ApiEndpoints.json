@@ -72,8 +72,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "course",
-        "Type": "CentroCapacitacionOficios.Entities.Course",
+        "Name": "dto",
+        "Type": "CentroCapacitacionOficios.DTOs.CreateCourseDto",
         "IsRequired": true
       }
     ],
@@ -88,8 +88,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "course",
-        "Type": "CentroCapacitacionOficios.Entities.Course",
+        "Name": "dto",
+        "Type": "CentroCapacitacionOficios.DTOs.UpdateCourseDto",
         "IsRequired": true
       }
     ],
@@ -264,8 +264,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "video",
-        "Type": "CentroCapacitacionOficios.Entities.Video",
+        "Name": "dto",
+        "Type": "CentroCapacitacionOficios.DTOs.CreateVideoDto",
         "IsRequired": true
       }
     ],
@@ -280,8 +280,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "video",
-        "Type": "CentroCapacitacionOficios.Entities.Video",
+        "Name": "dto",
+        "Type": "CentroCapacitacionOficios.DTOs.UpdateVideoDto",
         "IsRequired": true
       }
     ],

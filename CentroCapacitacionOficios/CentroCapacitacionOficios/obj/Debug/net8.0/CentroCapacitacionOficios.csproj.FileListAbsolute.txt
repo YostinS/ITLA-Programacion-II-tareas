@@ -171,3 +171,9 @@ C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\Centr
 C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\CentroCapacitacionOficios.Application.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\CentroCapacitacionOficios.Domain.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\CentroCapacitacionOficios.Application.pdb
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\CentroCapacitacionOficios.Domain.pdb
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitacionOficios\bin\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.pdb

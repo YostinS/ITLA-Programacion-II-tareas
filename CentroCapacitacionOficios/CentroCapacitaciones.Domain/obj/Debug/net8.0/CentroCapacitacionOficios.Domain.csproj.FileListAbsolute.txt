@@ -1,0 +1,12 @@
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\bin\Debug\net8.0\CentroCapacitacionOficios.Domain.deps.json
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\bin\Debug\net8.0\CentroCapacitacionOficios.Domain.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\bin\Debug\net8.0\CentroCapacitacionOficios.Domain.pdb
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\CentroCapacitacionOficios.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\CentroCapacitacionOficios.Domain.AssemblyInfoInputs.cache
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\CentroCapacitacionOficios.Domain.AssemblyInfo.cs
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\CentroCapacitacionOficios.Domain.csproj.CoreCompileInputs.cache
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\CentroCapacitacionOficios.Domain.sourcelink.json
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\CentroCapacitacionOficios.Domain.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\refint\CentroCapacitacionOficios.Domain.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\CentroCapacitacionOficios.Domain.pdb
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Domain\obj\Debug\net8.0\ref\CentroCapacitacionOficios.Domain.dll
