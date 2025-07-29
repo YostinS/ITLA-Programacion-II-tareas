@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CentroCapacitacion.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f34bd5d29e646d4ab7ef51b3092d67fdb5ce45d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a659e1de97bad44517bc5dfd56f637614f49918c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CentroCapacitacion.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CentroCapacitacion.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

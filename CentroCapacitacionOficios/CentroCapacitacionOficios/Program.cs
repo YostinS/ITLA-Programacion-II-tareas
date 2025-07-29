@@ -1,4 +1,4 @@
-using CentroCapacitacionOficios.Data;
+using CentroCapacitacionOficios.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

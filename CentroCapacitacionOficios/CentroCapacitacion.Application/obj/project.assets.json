@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacion.Application.csproj",
-      "projectName": "CentroCapacitacion.Application",
-      "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacion.Application.csproj",
+      "projectUniqueName": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacionOficios.Application.csproj",
+      "projectName": "CentroCapacitacionOficios.Application",
+      "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacionOficios.Application.csproj",
       "packagesPath": "C:\\Users\\yosti\\.nuget\\packages\\",
       "outputPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CentroCapacitacionOficios.Entities
+namespace CentroCapacitacionOficios.Domain.Entities
 {
     public class User
     {

@@ -1688,6 +1688,41 @@
             "rid": "win"
           }
         }
+      },
+      "CentroCapacitacionOficios.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CentroCapacitacionOficios.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CentroCapacitacionOficios.Application.dll": {}
+        }
+      },
+      "CentroCapacitacionOficios.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CentroCapacitacionOficios.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CentroCapacitacionOficios.Domain.dll": {}
+        }
+      },
+      "CentroCapacitacionOficios.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CentroCapacitacionOficios.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.7",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.7"
+        },
+        "compile": {
+          "bin/placeholder/CentroCapacitacionOficios.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CentroCapacitacionOficios.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -5147,10 +5182,28 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "CentroCapacitacionOficios.Application/1.0.0": {
+      "type": "project",
+      "path": "../CentroCapacitacion.Application/CentroCapacitacionOficios.Application.csproj",
+      "msbuildProject": "../CentroCapacitacion.Application/CentroCapacitacionOficios.Application.csproj"
+    },
+    "CentroCapacitacionOficios.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CentroCapacitaciones.Domain/CentroCapacitacionOficios.Domain.csproj",
+      "msbuildProject": "../CentroCapacitaciones.Domain/CentroCapacitacionOficios.Domain.csproj"
+    },
+    "CentroCapacitacionOficios.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CentroCapacitaciones.Infrastructure/CentroCapacitacionOficios.Infrastructure.csproj",
+      "msbuildProject": "../CentroCapacitaciones.Infrastructure/CentroCapacitacionOficios.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CentroCapacitacionOficios.Application >= 1.0.0",
+      "CentroCapacitacionOficios.Domain >= 1.0.0",
+      "CentroCapacitacionOficios.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
@@ -5189,7 +5242,17 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacionOficios.Application.csproj": {
+              "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacionOficios.Application.csproj"
+            },
+            "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Domain\\CentroCapacitacionOficios.Domain.csproj": {
+              "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Domain\\CentroCapacitacionOficios.Domain.csproj"
+            },
+            "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Infrastructure\\CentroCapacitacionOficios.Infrastructure.csproj": {
+              "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Infrastructure\\CentroCapacitacionOficios.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

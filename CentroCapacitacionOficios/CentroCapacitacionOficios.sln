@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroCapacitacionOficios", "CentroCapacitacionOficios\CentroCapacitacionOficios.csproj", "{6A79996E-5E32-4D7C-9EFA-6D215173A820}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroCapacitacion.Domain", "CentroCapacitaciones.Domain\CentroCapacitacion.Domain.csproj", "{DDF47AD3-6F25-4FCE-AD5E-23F67134EAA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroCapacitacionOficios.Domain", "CentroCapacitaciones.Domain\CentroCapacitacionOficios.Domain.csproj", "{DDF47AD3-6F25-4FCE-AD5E-23F67134EAA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroCapacitacion.Infrastructure", "CentroCapacitaciones.Infrastructure\CentroCapacitacion.Infrastructure.csproj", "{27C8B55D-B358-441C-8A74-82DA11D00047}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroCapacitacionOficios.Infrastructure", "CentroCapacitaciones.Infrastructure\CentroCapacitacionOficios.Infrastructure.csproj", "{27C8B55D-B358-441C-8A74-82DA11D00047}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroCapacitacion.Application", "CentroCapacitacion.Application\CentroCapacitacion.Application.csproj", "{9CB7AEA4-E939-4261-AB96-0830395302F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentroCapacitacionOficios.Application", "CentroCapacitacion.Application\CentroCapacitacionOficios.Application.csproj", "{9CB7AEA4-E939-4261-AB96-0830395302F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

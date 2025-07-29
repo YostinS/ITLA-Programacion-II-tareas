@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CentroCapacitacionOficios.Entities;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Numerics;
 using Microsoft.VisualBasic;
-using CentroCapacitacionOficios.Data;
 using CentroCapacitacionOficios.DTOs;
+using CentroCapacitacionOficios.Infrastructure.Data;
+using CentroCapacitacionOficios.Domain.Entities;
 
 namespace CentroCapacitacionOficios.Controllers
 {

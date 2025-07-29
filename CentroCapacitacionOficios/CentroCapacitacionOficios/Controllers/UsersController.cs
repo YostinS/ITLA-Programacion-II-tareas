@@ -1,11 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using CentroCapacitacionOficios.Entities;
-using CentroCapacitacionOficios.Data;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Numerics;
 using Microsoft.VisualBasic;
 using CentroCapacitacionOficios.DTOs;
 using System.Data;
+using CentroCapacitacionOficios.Infrastructure.Data;
+using CentroCapacitacionOficios.Domain.Entities;
 
 namespace CentroCapacitacionOficios.Controllers
 {
@@ -18,10 +18,6 @@ namespace CentroCapacitacionOficios.Controllers
         public UsersController(CentroCapacitacionOficiosDataContext context)
         {
             _context = context;
-            //_context.Add(new User { Id = 1, Name = "Yostin Sanchez", Email = "emailyostinprueba@gmail.com", RegistrationDate = new DateTime(2024, 05, 04) });
-            //_context.Add(new User { Id = 2, Name = "David Martinez", Email = "cyberpunk2077@gmail.com", RegistrationDate = new DateTime(2025, 01, 15) });
-            //_context.Add(new User { Id = 3, Name = "Kratos", Email = "turealdios@gmail.com", RegistrationDate = new DateTime(2018, 04, 20) });
-
         }
 
         //GET:

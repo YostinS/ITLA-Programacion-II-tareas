@@ -1,24 +1,24 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
-using CentroCapacitacionOficios.Entities;
+using CentroCapacitacionOficios.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace CentroCapacitacionOficios.Data
+namespace CentroCapacitacionOficios.Infrastructure.Data
 {
     public class CentroCapacitacionOficiosDataContext : DbContext
     {
         public CentroCapacitacionOficiosDataContext(DbContextOptions<CentroCapacitacionOficiosDataContext> options) : base(options) 
         { 
         }
-        public DbSet<Entities.Certificate> Certificates { get; set; }
-        public DbSet<Entities.Course> Courses { get; set; }
-        public DbSet<Entities.Instructor> Instructors { get; set; }
-        public DbSet<Entities.User> Users { get; set; }
-        public DbSet<Entities.Video> Videos { get; set; }
+        public DbSet<Domain.Entities.Certificate> Certificates { get; set; }
+        public DbSet<Domain.Entities.Course> Courses { get; set; }
+        public DbSet<Domain.Entities.Instructor> Instructors { get; set; }
+        public DbSet<Domain.Entities.User> Users { get; set; }
+        public DbSet<Domain.Entities.Video> Videos { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Entities.Certificate>().ToTable("Certificates");
+            modelBuilder.Entity<Domain.Entities.Certificate>().ToTable("Certificates");
             modelBuilder.Entity<Certificate>()
                 .HasKey(c => c.Id);
 
@@ -32,17 +32,17 @@ namespace CentroCapacitacionOficios.Data
                 .WithMany(cu => cu.Certificates)
                 .HasForeignKey(c => c.CourseId);
 
-            modelBuilder.Entity<Entities.Course>().ToTable("Courses");
+            modelBuilder.Entity<Domain.Entities.Course>().ToTable("Courses");
             modelBuilder.Entity<Course>()
                 .HasOne(c => c.Instructor)
                 .WithMany(i => i.Courses)
                 .HasForeignKey(c => c.InstructorId);
 
-            modelBuilder.Entity<Entities.Instructor>().ToTable("Instructors");
+            modelBuilder.Entity<Domain.Entities.Instructor>().ToTable("Instructors");
 
-            modelBuilder.Entity<Entities.User>().ToTable("Users");
+            modelBuilder.Entity<Domain.Entities.User>().ToTable("Users");
 
-            modelBuilder.Entity<Entities.Video>().ToTable("Videos");
+            modelBuilder.Entity<Domain.Entities.Video>().ToTable("Videos");
             modelBuilder.Entity<Video>()
                 .HasOne(v => v.Course)
                 .WithMany(c => c.Videos)
