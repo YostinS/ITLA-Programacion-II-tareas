@@ -44,7 +44,8 @@ namespace CentroCapacitacionOficios.Controllers
             {
                 Name = dto.Name,
                 Email = dto.Email,
-                RegistrationDate = DateTime.UtcNow //dto.RegistrationDate
+                RegistrationDate = DateTime.UtcNow, //dto.RegistrationDate
+                Password = dto.Password // Assuming Password is part of CreateUserDto
             };
             _context.Add(user);
             _context.SaveChanges();

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace CentroCapacitacionOficios.Domain.Entities
 {
@@ -11,5 +12,6 @@ namespace CentroCapacitacionOficios.Domain.Entities
         public string Email { get; set; }
         public DateTime RegistrationDate { get; set; }
         public ICollection<Certificate> Certificates { get; set; }
+        public required string Password { get; set; }
     }
 }
