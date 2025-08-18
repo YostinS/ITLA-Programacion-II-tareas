@@ -1,0 +1,16 @@
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\bin\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.deps.json
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\bin\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\bin\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.pdb
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\bin\Debug\net8.0\CentroCapacitacionOficios.Domain.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\bin\Debug\net8.0\CentroCapacitacionOficios.Domain.pdb
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.csproj.AssemblyReference.cache
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.AssemblyInfoInputs.cache
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.AssemblyInfo.cs
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.sourcelink.json
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCa.20AF5FEF.Up2Date
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\refint\CentroCapacitacionOficios.Infrastructure.dll
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\CentroCapacitacionOficios.Infrastructure.pdb
+C:\Programacion Itla\ITLA-Programacion-II-tareas\CentroCapacitacionOficios\CentroCapacitaciones.Infrastructure\obj\Debug\net8.0\ref\CentroCapacitacionOficios.Infrastructure.dll
