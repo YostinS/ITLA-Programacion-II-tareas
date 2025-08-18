@@ -25,12 +25,12 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
         public void AddVideo(Video video)
         {
             _context.Videos.Add(video);
-            _context.SaveChanges();
+
         }
         public void UpdateVideo(Video video)
         {
             _context.Videos.Update(video);
-            _context.SaveChanges();
+
         }
         public void DeleteVideo(int id)
         {
@@ -38,7 +38,7 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
             if (video != null)
             {
                 _context.Videos.Remove(video);
-                _context.SaveChanges();
+
             }
         }
     }

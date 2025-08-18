@@ -25,12 +25,12 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
         public void AddInstructor(Instructor instructor)
         {
             _context.Instructors.Add(instructor);
-            _context.SaveChanges();
+
         }
         public void UpdateInstructor(Instructor instructor)
         {
             _context.Instructors.Update(instructor);
-            _context.SaveChanges();
+
         }
         public void DeleteInstructor(int id)
         {
@@ -38,7 +38,7 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
             if (instructor != null)
             {
                 _context.Instructors.Remove(instructor);
-                _context.SaveChanges();
+
             }
         }
     }

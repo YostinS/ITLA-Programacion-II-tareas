@@ -18,6 +18,13 @@ namespace CentroCapacitacionOficios.Controllers
             _context = context;
         }
 
+        [HttpGet]
+        public IActionResult GetAllVideos()
+        {
+            var videos = _context.Videos.ToList();
+            return Ok(videos);
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetVideos(int id)
         {
@@ -67,7 +74,7 @@ namespace CentroCapacitacionOficios.Controllers
 
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteVideos(int id)
         {
             var video = _context.Videos.FirstOrDefault(d => d.Id == id);

@@ -25,12 +25,11 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
         public void AddCertificate(Certificate certificate)
         {
             _context.Certificates.Add(certificate);
-            _context.SaveChanges();
+
         }
         public void UpdateCertificate(Certificate certificate)
         {
             _context.Certificates.Update(certificate);
-            _context.SaveChanges();
         }
         public void DeleteCertificate(int id)
         {
@@ -38,7 +37,6 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
             if (certificate != null)
             {
                 _context.Certificates.Remove(certificate);
-                _context.SaveChanges();
             }
         }
     }

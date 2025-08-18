@@ -25,12 +25,12 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
         public void AddCourse(Course course)
         {
             _context.Courses.Add(course);
-            _context.SaveChanges();
+
         }
         public void UpdateCourse(Course course)
         {
             _context.Courses.Update(course);
-            _context.SaveChanges();
+
         }
         public void DeleteCourse(int id)
         {
@@ -38,7 +38,7 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
             if (course != null)
             {
                 _context.Courses.Remove(course);
-                _context.SaveChanges();
+
             }
         }
     }

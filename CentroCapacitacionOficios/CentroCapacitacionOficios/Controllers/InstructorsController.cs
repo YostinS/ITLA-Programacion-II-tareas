@@ -18,6 +18,13 @@ namespace CentroCapacitacionOficios.Controllers
             _context = context;
         }
 
+        [HttpGet]
+        public IActionResult GetAllInstructors()
+        {
+            var instructors = _context.Instructors.ToList();
+            return Ok(instructors);
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetInstructors(int id)
         {
@@ -67,7 +74,7 @@ namespace CentroCapacitacionOficios.Controllers
 
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteInstructors(int id)
         {
             var instructor = _context.Instructors.FirstOrDefault(d => d.Id == id);

@@ -1692,6 +1692,9 @@
       "CentroCapacitacionOficios.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CentroCapacitacionOficios.Infrastructure": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CentroCapacitacionOficios.Application.dll": {}
         },
@@ -5202,8 +5205,6 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "CentroCapacitacionOficios.Application >= 1.0.0",
-      "CentroCapacitacionOficios.Domain >= 1.0.0",
-      "CentroCapacitacionOficios.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.7",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
@@ -5245,12 +5246,6 @@
           "projectReferences": {
             "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacionOficios.Application.csproj": {
               "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacionOficios.Application.csproj"
-            },
-            "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Domain\\CentroCapacitacionOficios.Domain.csproj": {
-              "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Domain\\CentroCapacitacionOficios.Domain.csproj"
-            },
-            "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Infrastructure\\CentroCapacitacionOficios.Infrastructure.csproj": {
-              "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Infrastructure\\CentroCapacitacionOficios.Infrastructure.csproj"
             }
           }
         }

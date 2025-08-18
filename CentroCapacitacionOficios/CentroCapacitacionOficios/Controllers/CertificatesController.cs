@@ -18,6 +18,13 @@ namespace CentroCapacitacionOficios.Controllers
             _context = context;
         }
 
+        [HttpGet]
+        public IActionResult GetAllCertificates()
+        {
+            var certificates = _context.Certificates.ToList();
+            return Ok(certificates);
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetCertificates(int id)
         {
@@ -65,7 +72,7 @@ namespace CentroCapacitacionOficios.Controllers
 
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteCertificates(int id)
         {
             var certificate = _context.Certificates.FirstOrDefault(d => d.Id == id);

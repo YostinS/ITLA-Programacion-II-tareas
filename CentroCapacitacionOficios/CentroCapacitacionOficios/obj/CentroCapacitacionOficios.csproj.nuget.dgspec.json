@@ -31,7 +31,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Infrastructure\\CentroCapacitacionOficios.Infrastructure.csproj": {
+                "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Infrastructure\\CentroCapacitacionOficios.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -243,12 +247,6 @@
             "projectReferences": {
               "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacionOficios.Application.csproj": {
                 "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitacion.Application\\CentroCapacitacionOficios.Application.csproj"
-              },
-              "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Domain\\CentroCapacitacionOficios.Domain.csproj": {
-                "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Domain\\CentroCapacitacionOficios.Domain.csproj"
-              },
-              "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Infrastructure\\CentroCapacitacionOficios.Infrastructure.csproj": {
-                "projectPath": "C:\\Programacion Itla\\ITLA-Programacion-II-tareas\\CentroCapacitacionOficios\\CentroCapacitaciones.Infrastructure\\CentroCapacitacionOficios.Infrastructure.csproj"
               }
             }
           }

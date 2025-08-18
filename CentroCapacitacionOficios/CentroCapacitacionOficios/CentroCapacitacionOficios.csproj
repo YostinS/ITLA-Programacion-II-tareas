@@ -22,8 +22,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CentroCapacitacion.Application\CentroCapacitacionOficios.Application.csproj" />
-    <ProjectReference Include="..\CentroCapacitaciones.Domain\CentroCapacitacionOficios.Domain.csproj" />
-    <ProjectReference Include="..\CentroCapacitaciones.Infrastructure\CentroCapacitacionOficios.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

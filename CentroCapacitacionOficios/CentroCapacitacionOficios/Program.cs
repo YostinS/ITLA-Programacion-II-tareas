@@ -1,4 +1,5 @@
 using CentroCapacitacionOficios.Infrastructure.Data;
+using CentroCapacitacionOficios.Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,6 +7,22 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<CentroCapacitacionOficiosDataContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+
+builder.Services.AddScoped<CertificateRepository>();
+builder.Services.AddScoped<CourseRepository>();
+builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<InstructorRepository>();
+builder.Services.AddScoped<VideoRepository>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder =>
+    {
+        builder.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader();
+    });
+});
 
 // Add services to the container.
 
@@ -22,6 +39,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 

@@ -23,6 +23,13 @@ namespace CentroCapacitacionOficios.Controllers
         //GET:
         //Se utiliza para recuperar información de un recurso específico o una colección de recursos.
 
+        [HttpGet]
+        public IActionResult GetAllUsers()
+        {
+            var users = _context.Users.ToList();
+            return Ok(users);
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetUsers(int id)
         {
@@ -81,7 +88,7 @@ namespace CentroCapacitacionOficios.Controllers
         //DELETE:
         //Se utiliza para eliminar un recurso existente.
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult DeleteUser(int id)
         {
             var user = _context.Users.FirstOrDefault(d => d.Id == id);

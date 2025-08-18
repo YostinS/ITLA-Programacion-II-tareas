@@ -26,5 +26,9 @@ namespace CentroCapacitacionOficios.Infrastructure.Data.Repositories
             Certificates = certificateRepository;
             Courses = courseRepository;
         }
+        public Task CompleteAsync()
+        {
+            return _context.SaveChangesAsync();
+        }
     }
 }
